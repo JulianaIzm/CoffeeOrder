@@ -1,0 +1,47 @@
+﻿<Window x:Class="CoffeeOrdering.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Coffee"
+        mc:Ignorable="d"
+        Title="Coffee Order" Height="600" Width="430">
+    <Grid Background="#FFF2F305">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="430"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="208*"/>
+            <ColumnDefinition Width="17*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="logo" Content="" FontFamily="Webdings" FontSize="36" Margin="10,0,0,0" Foreground="#FF79B921" Grid.ColumnSpan="3"></Label>
+        <Label x:Name="title" Content="ВОЗЬМИ КОФЕ С СОБОЙ" HorizontalContentAlignment="Center" Grid.ColumnSpan="6" IsEnabled="False" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Margin="100,0,0,0">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF79B921" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        <StackPanel Grid.ColumnSpan="3" Orientation="Horizontal" VerticalAlignment="Top" Margin="9,47,0,10" >
+            <Image Source="/Image/americano.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="100" Margin="9,0,0,0"></Image>
+            <Image Source="/Image/cappucino.jpg" VerticalAlignment="Top" Width="83" Height="75" Margin="50,0,50,0"/>
+            <Image Source="/Image/latte.jpg" VerticalAlignment="Top" Width="88" Height="76"/>
+        </StackPanel>
+        <ListBox x:Name="coffeeList" Margin="10,150,10,0" Grid.ColumnSpan="6" Background="#FFF2F305" FontWeight="Bold" FontSize="18" VerticalAlignment="Top">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <VirtualizingStackPanel IsItemsHost="True" Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBoxItem Content="Американо"/>
+            <ListBoxItem Content="Каппучино" Margin="34,0,47,0"/>
+            <ListBoxItem Content="Латте"/>
+        </ListBox>
+        <Button x:Name="addButton" Margin="100,211,56,0" Content="Добавить в заказ" Click="AddButton_Click" Width="200" Height="45" Background="#FF619620" BorderBrush="#fff" Foreground="#fff" FontWeight="Bold" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <ListBox x:Name="orderListBox" Height="100" VerticalAlignment="Top" Background="#FFF2F305" Margin="0,280,0,0" Grid.ColumnSpan="3" Width="426"/>
+        <Label x:Name="totalPriceLabel" Margin="0,400,0,10" FontSize="16" FontWeight="Bold" Height="49" VerticalAlignment="Top" Grid.ColumnSpan="6" HorizontalAlignment="Left" HorizontalContentAlignment="Stretch" Width="428"/>
+        <Button x:Name="clearButton" Margin="100,0,0,50" Content="Удалить" Click="ClearButton_Click" Height="45" Background="#FFA4A4A9" BorderBrush="#fff" Foreground="#fff" FontWeight="Bold" FontSize="18" VerticalAlignment="Bottom" Grid.ColumnSpan="5" Width="200" IsDefault="True" HorizontalAlignment="Left"/>
+    </Grid>
+</Window>

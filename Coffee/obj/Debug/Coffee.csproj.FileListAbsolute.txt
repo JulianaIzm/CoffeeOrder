@@ -1,0 +1,15 @@
+C:\Users\Юлианка Измайлова\source\repos\Coffee\Coffee\obj\Debug\Coffee.csproj.AssemblyReference.cache
+C:\Users\Юлианка Измайлова\source\repos\Coffee\Coffee\obj\Debug\MainWindow.g.cs
+C:\Users\Юлианка Измайлова\source\repos\Coffee\Coffee\obj\Debug\App.g.cs
+C:\Users\Юлианка Измайлова\source\repos\Coffee\Coffee\obj\Debug\Coffee_MarkupCompile.cache
+C:\Users\Юлианка Измайлова\source\repos\Coffee\Coffee\obj\Debug\Coffee_MarkupCompile.lref
+C:\Users\Юлианка Измайлова\source\repos\Coffee\Coffee\bin\Debug\Coffee.exe.config
+C:\Users\Юлианка Измайлова\source\repos\Coffee\Coffee\bin\Debug\Coffee.exe
+C:\Users\Юлианка Измайлова\source\repos\Coffee\Coffee\bin\Debug\Coffee.pdb
+C:\Users\Юлианка Измайлова\source\repos\Coffee\Coffee\obj\Debug\MainWindow.baml
+C:\Users\Юлианка Измайлова\source\repos\Coffee\Coffee\obj\Debug\Coffee.g.resources
+C:\Users\Юлианка Измайлова\source\repos\Coffee\Coffee\obj\Debug\Coffee.Properties.Resources.resources
+C:\Users\Юлианка Измайлова\source\repos\Coffee\Coffee\obj\Debug\Coffee.csproj.GenerateResource.cache
+C:\Users\Юлианка Измайлова\source\repos\Coffee\Coffee\obj\Debug\Coffee.csproj.CoreCompileInputs.cache
+C:\Users\Юлианка Измайлова\source\repos\Coffee\Coffee\obj\Debug\Coffee.exe
+C:\Users\Юлианка Измайлова\source\repos\Coffee\Coffee\obj\Debug\Coffee.pdb
